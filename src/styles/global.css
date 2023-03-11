@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "poppins";
+    color: white;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: #101010;
+    background-repeat: no-repeat;
+}
+
+p {
+    margin: 16px auto;
+    line-height: 1.5em;
+}
