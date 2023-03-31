@@ -1,17 +1,24 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import '../styles/global.css'
 
 
 export default function Navbar() {
   return (
+    
     <nav>
-        <h1>Web Warrior</h1>
+        
+        <a href="#home" id="logo">test
+        </a>
+        
         <div className='links'>
-            <Link to="/"> Home </Link>
-            <Link to="/about"> About </Link>
-            <Link to="/projects"> Portfolio Projects </Link>
+            <Link className='home' to="/"> Home </Link>
+            <Link className='about' to="/about"> About </Link>
+            <Link className='contact' to="/contact"> Contact </Link>
+            {/* <Link className='contact' to="/projects"> Contact </Link> */}
         </div>
-
-    </nav>
+     </nav>
+    
+    
   )
 }

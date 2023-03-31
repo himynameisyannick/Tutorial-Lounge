@@ -1,25 +1,90 @@
-@font-face {
-    font-family: MonumentExtended;
-    src: url(static/MonumentExtended/MonumentExtended/MonumentExtended-Regular.otf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(./root/root.css);
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: MonumentExtended;
-    color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 html, body {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body {
-    background: #101010;
-    background-repeat: no-repeat;
+  background: var(--set-color-space-cadet);
+  background-repeat: no-repeat;
 }
 
 p {
-    margin: 16px auto;
-    line-height: 1.5em;
+  margin: 16px auto;
+  line-height: 1.5em;
 }
+
+/* layout & nav */
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav .links .home, nav .links .about {
+  padding: 10px;
+}
+
+section.hero {
+  height: auto;
+  margin: 10rem;
+}
+section.hero h1 {
+  font-size: var(--set-font-desktop-header);
+}
+section.hero p {
+  font-size: var(--set-font-desktop-paragraph);
+}
+section.hero .page-one-what-i-do, section.hero .page-one-description {
+  color: var(--set-color-cosmic-plum);
+}
+section.hero .page-one-greeting {
+  color: var(--set-color-lunar-lavender);
+}
+
+section.profile {
+  height: auto;
+  width: 100%;
+  background-color: var(--set-color-off-space-cadet);
+}
+
+footer {
+  height: 15rem;
+  width: 100%;
+  border-top: 1px solid var(--set-color-cosmic-plum);
+  bottom: 0;
+}
+footer h1 {
+  font-size: var(--set-font-desktop-paragraph);
+  font-weight: 500;
+}
+footer p {
+  color: var(--set-color-cosmic-plum);
+  font-size: var(--set-font-desktop-detail);
+}
+footer .content-footer {
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .legal-footer {
+  border-top: 1px solid var(--set-color-cosmic-plum);
+  padding: 10px 0;
+  text-align: right;
+}/*# sourceMappingURL=global.css.map */
