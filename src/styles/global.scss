@@ -51,7 +51,7 @@ nav {
 // Hero page starts here
 section.hero {
     // Hero Page sizing
-    height: auto;
+    height: 60vh;
     margin: 10rem;
 
     // Hero Page font size's
@@ -64,9 +64,14 @@ section.hero {
 }
 
 section.profile {
-    height: auto;
+    height: 100vh;
     width: 100%;
-    background-color: var(--set-color-off-space-cadet);
+    
+    h1 {
+        font-size: var(--set-font-desktop-header);
+    }
+
+    // background-color: var(--set-color-off-space-cadet);
 }
 
 footer {

@@ -42,7 +42,7 @@ nav .links .home, nav .links .about {
 }
 
 section.hero {
-  height: auto;
+  height: 60vh;
   margin: 10rem;
 }
 section.hero h1 {
@@ -59,9 +59,11 @@ section.hero .page-one-greeting {
 }
 
 section.profile {
-  height: auto;
+  height: 100vh;
   width: 100%;
-  background-color: var(--set-color-off-space-cadet);
+}
+section.profile h1 {
+  font-size: var(--set-font-desktop-header);
 }
 
 footer {

@@ -24,7 +24,8 @@ export default function Home() {
 
       {/* Profile page */}
       <section class="profile" id="about">
-      <h1 class="page-one-name">Yannick Lahti.</h1>
+      <h1>My Recent Work</h1>
+
       
       {/* personal image comes here */}
       <div class="left-image">

@@ -28,7 +28,7 @@ export default function Footer() {
            </div>
 
            <div class="legal-footer">
-              <p>© 2023 by Yannick Lahti. All rights reserved.</p>
+              <p>Copyright © 2023 Yannick Lahti.</p>
            </div>
 
         </footer>

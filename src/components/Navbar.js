@@ -8,8 +8,7 @@ export default function Navbar() {
     
     <nav>
         
-        <a href="#home" id="logo">test
-        </a>
+        <a href="#home" id="logo">logo comes here</a>
         
         <div className='links'>
             <Link className='home' to="/"> Home </Link>
